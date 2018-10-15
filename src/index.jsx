@@ -1,8 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css'
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+import './css/bootstrap.min.css'
+import './index.css';
+
+import App from './componentes/App'
 
 ReactDOM.render(
-    <h1>React App</h1>,
+    <App initialValue={10} />,
     document.getElementById('app')
 )
